@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thanks, Charity Jepchirchir</title>
+    <meta name="description" content="Message received. I'll be in touch.">
+    <meta name="robots" content="noindex, follow">
+    <link rel="canonical" href="https://charityjepchirchir.co.ke/thank-you.html">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@500;600&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+    <header class="site-header">
+        <div class="inner">
+            <a href="index.html" class="wordmark">Charity <em>Jepchirchir</em></a>
+            <button class="menu-toggle" aria-expanded="false" aria-controls="site-nav">Menu</button>
+            <nav class="site-nav" id="site-nav">
+                <a href="index.html">Home</a>
+                <a href="pages/about.html">About</a>
+                <a href="pages/experience.html">Experience</a>
+                <a href="pages/skills.html">Skills</a>
+                <a href="pages/education.html">Education</a>
+                <a href="pages/resume.html">Résumé</a>
+                <a href="pages/contact.html">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="page-head">
+            <span class="eyebrow">§ Message received</span>
+            <h1 class="page-title">Thanks for writing.</h1>
+            <p class="dek">
+                Your note's landed in my inbox. I usually reply within a day or two, sooner if I'm at my desk and the subject line catches my eye.
+            </p>
+        </section>
+
+        <section class="page-section">
+            <div class="col">
+                <p>
+                    In the meantime, here are a few places worth a look:
+                </p>
+                <ul style="margin: 0 0 2rem; padding-left: 1.1rem;">
+                    <li><a href="pages/experience.html">Experience</a>, the roles, training, and workshops in detail.</li>
+                    <li><a href="pages/skills.html">Skills</a>, the working list of what I do every week.</li>
+                    <li><a href="pages/resume.html">Résumé</a>, the printable, hiring-friendly version.</li>
+                </ul>
+                <p>
+                    Or just <a href="index.html">head back to the start</a>.
+                </p>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="inner">
+            <span>© 2026 Charity Jepchirchir.</span>
+            <a href="mailto:chariechirie0@gmail.com">chariechirie0@gmail.com</a>
+        </div>
+    </footer>
+
+    <script>
+        (function () {
+            var btn = document.querySelector('.menu-toggle');
+            var nav = document.getElementById('site-nav');
+            if (!btn || !nav) return;
+            btn.addEventListener('click', function () {
+                var open = nav.classList.toggle('open');
+                btn.setAttribute('aria-expanded', open ? 'true' : 'false');
+            });
+        })();
+    </script>
+</body>
+</html>
