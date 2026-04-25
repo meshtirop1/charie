@@ -2,4 +2,4 @@ User-agent: *
 Allow: /
 Disallow: /thank-you.html
 
-Sitemap: https://charityjepchirchir.co.ke/sitemap.xml
+Sitemap: https://charie.netlify.app/sitemap.xml
